@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Countdown Timer</title>
+  
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@200&display=swap" rel="stylesheet"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css'><link rel="stylesheet" href="./style.css">
+        
+</head>
+<body>
+    <h1><strong>Countdown Timer</strong></h1>
+<div class="timer-container">
+        
+        <div class="background">&nbsp;</div>
+        <div class="background-inner">&nbsp;</div>
+
+        <svg height="400" width="400">
+            <circle r="190" cx="200" cy="200" fill="transparent" stroke-width="20"
+                transform="rotate(-90 200 200)">
+            </circle>
+        </svg>
+        <div class="form">
+                <input type="number" id="duration" value="60" placeholder="00.00">
+            <div class="buttons">
+                <div class="button" id="start"><i class="fa-solid fa-play"></i></div>
+                <div class="button" id="pause"><i class="fa-solid fa-pause"></i></div>
+            </div>
+        </div>
+    </div>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
